@@ -1,7 +1,7 @@
 # censored-strings
 https://edabit.com/challenge/Wv9ZeXyC32EMfRWGB My solution in various languages to this problem.
 
-C++:
+## C++:
 
 std::string uncensor(std::string str, std::string vowels) {
 	std::string res = "";
@@ -18,7 +18,7 @@ std::string uncensor(std::string str, std::string vowels) {
 	return res;
 }
 
-Python:
+## Python:
 
 def uncensor(txt, vowels):
     listTxt = list(txt)
@@ -35,7 +35,7 @@ def uncensor(txt, vowels):
     
     return result
 
-JavaScript:
+## JavaScript:
 
 function uncensor(str, vowels) {
 	var newString = ''
@@ -52,7 +52,7 @@ function uncensor(str, vowels) {
 	return newString
 }
 
-Java:
+## Java:
 
 public class Challenge {
 	public static String uncensor(String str, String vowels) {
